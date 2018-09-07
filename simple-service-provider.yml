@@ -168,6 +168,7 @@ spring:
         - alias: Google
           metadata: https://s3-us-west-1.amazonaws.com/ebsopenam/GoogleIDPMetadata-nextiva-poc.com.xml
           link-text: Google
-#        - alias: Azure AD
-#          metadata: https://login.microsoftonline.com/0d52de85-4e9a-442a-bf7e-5bccbe97125a/federationmetadata/2007-06/federationmetadata.xml?appid=ab141570-652b-475c-824d-6bbc57ac06ea
-#          link-text: Azure AD
+        - alias: Azure AD
+          metadata: https://login.microsoftonline.com/0d52de85-4e9a-442a-bf7e-5bccbe97125a/federationmetadata/2007-06/federationmetadata.xml?appid=ab141570-652b-475c-824d-6bbc57ac06ea
+          link-text: Azure AD
+          
