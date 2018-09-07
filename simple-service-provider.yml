@@ -159,9 +159,9 @@ spring:
 #        - alias: uaa
 #          metadata: http://localhost:8082/uaa/saml/idp/metadata
 #          link-text: Cloud Foundry UAA IDP
-#        - alias: OpenAM
-#          metadata: http://openam.us-west-1.elasticbeanstalk.com/auth/saml2/jsp/exportmetadata.jsp?entityid=http://openam.us-west-1.elasticbeanstalk.com:80/auth&realm=/Customers/AccountB
-#          link-text: OpenAM on AWS
+        - alias: OpenAM
+          metadata: http://openam.us-west-1.elasticbeanstalk.com/auth/saml2/jsp/exportmetadata.jsp?entityid=http://openam.us-west-1.elasticbeanstalk.com:80/auth&realm=/Customers/AccountB
+          link-text: OpenAM on AWS
         - alias: Okta
           metadata: https://dev-197949.oktapreview.com/app/exkg3l78cpNoRJgN60h7/sso/saml/metadata
           link-text: Okta
